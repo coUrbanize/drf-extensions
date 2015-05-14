@@ -40,13 +40,13 @@ class PrepareRestFrameworkSettingsPlugin(AlwaysOnPlugin):
         self._monkeypatch_default_settings()
 
     def _monkeypatch_default_settings(self):
-        from rest_framework import settings
+        from rest_framework_3 import settings
 
         PATCH_REST_FRAMEWORK = {
             # Testing
             'TEST_REQUEST_RENDERER_CLASSES': (
-                'rest_framework.renderers.MultiPartRenderer',
-                'rest_framework.renderers.JSONRenderer'
+                'rest_framework_3.renderers.MultiPartRenderer',
+                'rest_framework_3.renderers.JSONRenderer'
             ),
             'TEST_REQUEST_DEFAULT_FORMAT': 'multipart',
         }

@@ -2,8 +2,8 @@
 import hashlib
 import json
 
-from rest_framework_extensions.key_constructor import bits
-from rest_framework_extensions.settings import extensions_api_settings
+from rest_framework_extensions_3.key_constructor import bits
+from rest_framework_extensions_3.settings import extensions_api_settings
 
 
 class KeyConstructor(object):
@@ -54,7 +54,7 @@ class KeyConstructor(object):
             return value
 
     def _get_memoization_key(self, view_instance, view_method, args, kwargs):
-        from rest_framework_extensions.utils import get_unique_method_id
+        from rest_framework_extensions_3.utils import get_unique_method_id
         return json.dumps({
             'unique_method_id': get_unique_method_id(view_instance=view_instance, view_method=view_method),
             'args': args,

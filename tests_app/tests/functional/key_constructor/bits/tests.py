@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from rest_framework_extensions.test import APITestCase
+from rest_framework_extensions_3.test import APITestCase
 
 from .models import KeyConstructorUserProperty, KeyConstructorUserModel
 
@@ -7,7 +7,7 @@ from .models import KeyConstructorUserProperty, KeyConstructorUserModel
 class ListSqlQueryKeyBitTestBehaviour__with_bad_filter_arguments(APITestCase):
     """Regression tests for https://github.com/chibisov/drf-extensions/issues/28#issuecomment-51711927
 
-    `rest_framework.filters.DjangoFilterBackend` uses defalut `FilterSet`.
+    `rest_framework_3.filters.DjangoFilterBackend` uses defalut `FilterSet`.
     When there is no filtered fk in db, then `FilterSet.form` is invalid with errors:
         {'property': [u'Select a valid choice. That choice is not one of the available choices.']}
     In that case `FilterSet.qs` returns `self.queryset.none()`

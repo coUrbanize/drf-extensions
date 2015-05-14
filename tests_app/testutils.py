@@ -2,10 +2,10 @@
 import base64
 from mock import patch
 
-from rest_framework import HTTP_HEADER_ENCODING
+from rest_framework_3 import HTTP_HEADER_ENCODING
 
-from rest_framework_extensions.key_constructor import bits
-from rest_framework_extensions.key_constructor.constructors import KeyConstructor
+from rest_framework_extensions_3.key_constructor import bits
+from rest_framework_extensions_3.key_constructor.constructors import KeyConstructor
 
 
 def get_url_pattern_by_regex_pattern(patterns, pattern_string):
@@ -17,7 +17,7 @@ def get_url_pattern_by_regex_pattern(patterns, pattern_string):
 
 def override_extensions_api_settings(**kwargs):
     return patch.multiple(
-        'rest_framework_extensions.settings.extensions_api_settings',
+        'rest_framework_extensions_3.settings.extensions_api_settings',
         **kwargs
     )
 

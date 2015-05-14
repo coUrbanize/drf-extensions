@@ -5,13 +5,13 @@ from functools import wraps
 from django.utils.decorators import available_attrs
 from django.utils.http import parse_etags, quote_etag
 
-from rest_framework import status
-from rest_framework.permissions import SAFE_METHODS
-from rest_framework.response import Response
+from rest_framework_3 import status
+from rest_framework_3.permissions import SAFE_METHODS
+from rest_framework_3.response import Response
 
-from rest_framework_extensions.utils import prepare_header_name
-from rest_framework_extensions.settings import extensions_api_settings
-from rest_framework_extensions.compat import six
+from rest_framework_extensions_3.utils import prepare_header_name
+from rest_framework_extensions_3.settings import extensions_api_settings
+from rest_framework_extensions_3.compat import six
 
 
 logger = logging.getLogger('django.request')

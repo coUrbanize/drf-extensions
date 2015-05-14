@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 from mock import patch, Mock
 
-from rest_framework import VERSION
+from rest_framework_3 import VERSION
 
 from django.test import TestCase
 
-from rest_framework_extensions.utils import (
+from rest_framework_extensions_3.utils import (
     get_rest_framework_version,
     get_rest_framework_features,
     prepare_header_name,
@@ -44,7 +44,7 @@ class Test_get_rest_framework_features(TestCase):
         ]
 
         for exp in experiments:
-            with patch('rest_framework_extensions.utils.get_rest_framework_version', Mock(return_value=exp['version'])):
+            with patch('rest_framework_extensions_3.utils.get_rest_framework_version', Mock(return_value=exp['version'])):
                 self.assertEqual(get_rest_framework_features()['router_trailing_slash'], exp['expected'])
 
     def test_allow_dot_in_lookup_regex_without_trailing_slash(self):
@@ -84,7 +84,7 @@ class Test_get_rest_framework_features(TestCase):
         ]
 
         for exp in experiments:
-            with patch('rest_framework_extensions.utils.get_rest_framework_version', Mock(return_value=exp['version'])):
+            with patch('rest_framework_extensions_3.utils.get_rest_framework_version', Mock(return_value=exp['version'])):
                 self.assertEqual(
                     get_rest_framework_features()['allow_dot_in_lookup_regex_without_trailing_slash'],
                     exp['expected']
@@ -127,7 +127,7 @@ class Test_get_rest_framework_features(TestCase):
         ]
 
         for exp in experiments:
-            with patch('rest_framework_extensions.utils.get_rest_framework_version', Mock(return_value=exp['version'])):
+            with patch('rest_framework_extensions_3.utils.get_rest_framework_version', Mock(return_value=exp['version'])):
                 self.assertEqual(
                     get_rest_framework_features()['max_paginate_by'],
                     exp['expected']
@@ -170,7 +170,7 @@ class Test_get_rest_framework_features(TestCase):
         ]
 
         for exp in experiments:
-            with patch('rest_framework_extensions.utils.get_rest_framework_version', Mock(return_value=exp['version'])):
+            with patch('rest_framework_extensions_3.utils.get_rest_framework_version', Mock(return_value=exp['version'])):
                 self.assertEqual(
                     get_rest_framework_features()['django_object_permissions_class'],
                     exp['expected']

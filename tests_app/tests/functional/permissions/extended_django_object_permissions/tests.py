@@ -8,11 +8,11 @@ from django.contrib.auth.management import create_permissions
 from django.db.models import get_app, get_models
 from django.contrib.contenttypes.models import ContentType
 
-from rest_framework import status
-from rest_framework_extensions.test import APITestCase
+from rest_framework_3 import status
+from rest_framework_extensions_3.test import APITestCase
 
-from rest_framework_extensions.compat import guardian, get_model_name
-from rest_framework_extensions.utils import get_rest_framework_features
+from rest_framework_extensions_3.compat import guardian, get_model_name
+from rest_framework_extensions_3.utils import get_rest_framework_features
 
 from tests_app.testutils import basic_auth_header
 from .urls import urlpatterns

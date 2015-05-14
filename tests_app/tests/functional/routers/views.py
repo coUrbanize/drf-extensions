@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-from rest_framework import viewsets
+from rest_framework_3 import viewsets
 
-from rest_framework_extensions.decorators import action
+from rest_framework_extensions_3.decorators import action
 from .models import RouterTestModel
 
 

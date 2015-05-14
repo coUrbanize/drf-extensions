@@ -3,7 +3,7 @@ from django.utils.translation import get_language
 from django.db.models.query import EmptyQuerySet
 from django.db.models.sql.datastructures import EmptyResultSet
 
-from rest_framework_extensions.compat import force_text
+from rest_framework_extensions_3.compat import force_text
 
 
 class AllArgsMixin(object):
@@ -133,7 +133,7 @@ class HeadersKeyBit(KeyBitDictBase):
         return request.META
 
     def prepare_key_for_value_retrieving(self, key):
-        from rest_framework_extensions.utils import prepare_header_name
+        from rest_framework_extensions_3.utils import prepare_header_name
 
         return prepare_header_name(key.lower())  # Accept-Language => http_accept_language
 

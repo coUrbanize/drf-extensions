@@ -2,14 +2,14 @@
 from django.test import TestCase
 from django.utils.http import quote_etag
 
-from rest_framework import views
-from rest_framework.response import Response
-from rest_framework import status
-from rest_framework.permissions import SAFE_METHODS
+from rest_framework_3 import views
+from rest_framework_3.response import Response
+from rest_framework_3 import status
+from rest_framework_3.permissions import SAFE_METHODS
 
-from rest_framework_extensions.etag.decorators import etag
-from rest_framework_extensions.test import APIRequestFactory
-from rest_framework_extensions.utils import prepare_header_name
+from rest_framework_extensions_3.etag.decorators import etag
+from rest_framework_extensions_3.test import APIRequestFactory
+from rest_framework_extensions_3.utils import prepare_header_name
 
 from tests_app.testutils import (
     override_extensions_api_settings,

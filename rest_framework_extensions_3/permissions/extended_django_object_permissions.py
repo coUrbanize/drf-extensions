@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from rest_framework.permissions import DjangoObjectPermissions
+from rest_framework_3.permissions import DjangoObjectPermissions
 
 
 class ExtendedDjangoObjectPermissions(DjangoObjectPermissions):

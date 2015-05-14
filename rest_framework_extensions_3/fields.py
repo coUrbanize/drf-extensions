@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from rest_framework.relations import HyperlinkedRelatedField
+from rest_framework_3.relations import HyperlinkedRelatedField
 
 
 class ResourceUriField(HyperlinkedRelatedField):

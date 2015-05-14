@@ -3,7 +3,7 @@ import datetime
 
 from django.test import TestCase
 
-from rest_framework_extensions.test import APIRequestFactory  # todo: use from rest_framework when released
+from rest_framework_extensions_3.test import APIRequestFactory  # todo: use from rest_framework_3 when released
 
 from .urls import urlpatterns
 from .models import Comment

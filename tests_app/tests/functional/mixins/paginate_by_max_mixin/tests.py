@@ -4,7 +4,7 @@ import datetime
 from django.test import TestCase
 from django.utils import unittest
 
-from rest_framework_extensions.utils import get_rest_framework_features
+from rest_framework_extensions_3.utils import get_rest_framework_features
 
 from .urls import urlpatterns
 from .models import CommentForPaginateByMaxMixin

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from rest_framework_extensions.cache.decorators import cache_response
-from rest_framework_extensions.settings import extensions_api_settings
+from rest_framework_extensions_3.cache.decorators import cache_response
+from rest_framework_extensions_3.settings import extensions_api_settings
 
 
 class BaseCacheResponseMixin(object):

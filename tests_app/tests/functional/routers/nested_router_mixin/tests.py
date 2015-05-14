@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-from rest_framework_extensions.test import APITestCase
+from rest_framework_extensions_3.test import APITestCase
 
-from rest_framework_extensions.utils import get_rest_framework_features
-from rest_framework_extensions.routers import ExtendedSimpleRouter
+from rest_framework_extensions_3.utils import get_rest_framework_features
+from rest_framework_extensions_3.routers import ExtendedSimpleRouter
 
 from tests_app.testutils import get_url_pattern_by_regex_pattern
 from .models import (

@@ -5,8 +5,8 @@ from django.test import TestCase
 from django.core.files import File
 from django.utils import unittest
 
-from rest_framework_extensions.utils import get_rest_framework_features
-from rest_framework_extensions.compat import BytesIO
+from rest_framework_extensions_3.utils import get_rest_framework_features
+from rest_framework_extensions_3.compat import BytesIO
 
 from .serializers import CommentSerializer, UserSerializer, CommentSerializerWithExpandedUsersLiked, CommentSerializerWithAllowedUserId
 from .models import UserModel, CommentModel
