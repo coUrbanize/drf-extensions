@@ -62,9 +62,9 @@ setup(
     long_description='DRF-extensions is a collection of custom extensions for Django REST Framework',
     author='Gennady Chibisov',
     author_email='web-chib@ya.ru',
-    packages=get_packages('rest_framework_extensions_3_3'),
+    packages=get_packages('rest_framework_extensions_3'),
     package_data=get_package_data('rest_framework_extensions_3'),
-    test_suite='rest_framework_extensions_3_3.runtests.runtests.main',
+    test_suite='rest_framework_extensions_3.runtests.runtests.main',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
