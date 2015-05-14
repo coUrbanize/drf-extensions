@@ -39,7 +39,7 @@ def get_package_data(package):
     return {package: filepaths}
 
 
-version = get_version('rest_framework_extensions')
+version = get_version('rest_framework_extensions_3')
 
 
 if sys.argv[-1] == 'publish':
@@ -52,7 +52,7 @@ if sys.argv[-1] == 'publish':
 
 
 setup(
-    name='drf-extensions',
+    name='drf-extensions-3',
     version=version,
     url='http://github.com/chibisov/drf-extensions',
     download_url='https://pypi.python.org/pypi/drf-extensions/',
@@ -62,9 +62,9 @@ setup(
     long_description='DRF-extensions is a collection of custom extensions for Django REST Framework',
     author='Gennady Chibisov',
     author_email='web-chib@ya.ru',
-    packages=get_packages('rest_framework_extensions'),
-    package_data=get_package_data('rest_framework_extensions'),
-    test_suite='rest_framework_extensions.runtests.runtests.main',
+    packages=get_packages('rest_framework_extensions_3_3'),
+    package_data=get_package_data('rest_framework_extensions_3'),
+    test_suite='rest_framework_extensions_3_3.runtests.runtests.main',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',

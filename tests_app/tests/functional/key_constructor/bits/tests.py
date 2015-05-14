@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from rest_framework_extensions.test import APITestCase
+from rest_framework_extensions_3.test import APITestCase
 
 from .models import KeyConstructorUserProperty, KeyConstructorUserModel
 

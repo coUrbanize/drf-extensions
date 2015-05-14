@@ -3,10 +3,10 @@ import json
 
 from django.utils import unittest
 
-from rest_framework_extensions.test import APITestCase
-from rest_framework_extensions.settings import extensions_api_settings
-from rest_framework_extensions import utils
-from rest_framework_extensions.utils import get_rest_framework_features
+from rest_framework_extensions_3.test import APITestCase
+from rest_framework_extensions_3.settings import extensions_api_settings
+from rest_framework_extensions_3 import utils
+from rest_framework_extensions_3.utils import get_rest_framework_features
 
 from .urls import urlpatterns
 from .models import (

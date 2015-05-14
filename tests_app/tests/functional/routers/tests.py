@@ -2,9 +2,9 @@
 from django.test import TestCase
 from django.utils import unittest
 
-from rest_framework_extensions.compat_drf import get_lookup_allowed_symbols
-from rest_framework_extensions.utils import get_rest_framework_features
-from rest_framework_extensions.routers import ExtendedSimpleRouter
+from rest_framework_extensions_3.compat_drf import get_lookup_allowed_symbols
+from rest_framework_extensions_3.utils import get_rest_framework_features
+from rest_framework_extensions_3.routers import ExtendedSimpleRouter
 
 from tests_app.testutils import get_url_pattern_by_regex_pattern
 from .views import RouterViewSet

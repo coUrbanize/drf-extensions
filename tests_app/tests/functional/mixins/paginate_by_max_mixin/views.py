@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from rest_framework import viewsets
-from rest_framework_extensions.mixins import PaginateByMaxMixin
+from rest_framework_extensions_3.mixins import PaginateByMaxMixin
 
 from .models import CommentForPaginateByMaxMixin
 from .serializers import CommentSerializer

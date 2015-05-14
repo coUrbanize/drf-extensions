@@ -9,7 +9,7 @@ except ImportError:
         pass
 
 try:
-    from rest_framework_extensions.permissions import ExtendedDjangoObjectPermissions
+    from rest_framework_extensions_3.permissions import ExtendedDjangoObjectPermissions
 except ImportError:
     class ExtendedDjangoObjectPermissions(object):
         pass

@@ -3,7 +3,7 @@ import django_filters
 from rest_framework import viewsets
 from rest_framework import filters
 from rest_framework.permissions import DjangoModelPermissions
-from rest_framework_extensions.mixins import ListUpdateModelMixin
+from rest_framework_extensions_3.mixins import ListUpdateModelMixin
 
 from .models import (
     CommentForListUpdateModelMixin as Comment,

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 from django.core.urlresolvers import NoReverseMatch
 
-from rest_framework_extensions.test import APITestCase
-from rest_framework_extensions.routers import ExtendedDefaultRouter
+from rest_framework_extensions_3.test import APITestCase
+from rest_framework_extensions_3.routers import ExtendedDefaultRouter
 
 from .views import (
     UserViewSet,

@@ -6,10 +6,10 @@ from django.utils.translation import override
 
 from rest_framework import views
 from rest_framework.response import Response
-from rest_framework_extensions.test import APIRequestFactory
-from rest_framework_extensions.utils import get_django_features
+from rest_framework_extensions_3.test import APIRequestFactory
+from rest_framework_extensions_3.utils import get_django_features
 
-from rest_framework_extensions.key_constructor.bits import (
+from rest_framework_extensions_3.key_constructor.bits import (
     KeyBitDictBase,
     UniqueMethodIdKeyBit,
     LanguageKeyBit,

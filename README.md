@@ -108,7 +108,7 @@ For example if we've just implemented `Usage of the specific cache`:
 
 ## Publishing new releases
 
-Increment version in `rest_framework_extensions/__init__.py`. For example:
+Increment version in `rest_framework_extensions_3/__init__.py`. For example:
 
     __version__ = '0.2.2'  # from 0.2.1
 

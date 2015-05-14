@@ -5,10 +5,10 @@ from django.utils import unittest
 from rest_framework import viewsets
 from rest_framework import decorators
 from rest_framework.response import Response
-from rest_framework_extensions.utils import get_rest_framework_features
-from rest_framework_extensions.routers import ExtendedDefaultRouter
-from rest_framework_extensions.decorators import link, action
-from rest_framework_extensions.compat_drf import add_trailing_slash_if_needed
+from rest_framework_extensions_3.utils import get_rest_framework_features
+from rest_framework_extensions_3.routers import ExtendedDefaultRouter
+from rest_framework_extensions_3.decorators import link, action
+from rest_framework_extensions_3.compat_drf import add_trailing_slash_if_needed
 
 
 class ExtendedDefaultRouterTest(TestCase):

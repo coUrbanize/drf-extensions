@@ -107,7 +107,7 @@ INSTALLED_APPS = (
     # 'django.contrib.admindocs',
     'django_nose',
     'guardian',
-    'rest_framework_extensions',
+    'rest_framework_extensions_3',
     'tests_app',
 )
 

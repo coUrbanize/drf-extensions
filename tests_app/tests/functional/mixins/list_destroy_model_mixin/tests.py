@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-from rest_framework_extensions.test import APITestCase
-from rest_framework_extensions.settings import extensions_api_settings
-from rest_framework_extensions import utils
+from rest_framework_extensions_3.test import APITestCase
+from rest_framework_extensions_3.settings import extensions_api_settings
+from rest_framework_extensions_3 import utils
 
 from .urls import urlpatterns
 from .models import CommentForListDestroyModelMixin as Comment
