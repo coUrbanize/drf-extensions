@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 from rest_framework_extensions_3.compat import force_text
 
-from rest_framework import status
-from rest_framework.response import Response
+from rest_framework_3 import status
+from rest_framework_3.response import Response
 from rest_framework_extensions_3.settings import extensions_api_settings
 from rest_framework_extensions_3 import utils
 

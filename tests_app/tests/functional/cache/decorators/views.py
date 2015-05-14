@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from rest_framework import views
-from rest_framework.response import Response
+from rest_framework_3 import views
+from rest_framework_3.response import Response
 
 from rest_framework_extensions_3.cache.decorators import cache_response
 

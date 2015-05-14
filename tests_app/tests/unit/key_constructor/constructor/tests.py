@@ -6,7 +6,7 @@ from mock import Mock, patch
 
 from django.test import TestCase
 
-from rest_framework import viewsets
+from rest_framework_3 import viewsets
 
 from rest_framework_extensions_3.key_constructor.constructors import (
     KeyConstructor,

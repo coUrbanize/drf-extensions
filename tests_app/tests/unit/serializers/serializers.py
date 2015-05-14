@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from rest_framework import serializers
+from rest_framework_3 import serializers
 from rest_framework_extensions_3 import serializers as drf_serializers
 
 from .models import CommentModel, UserModel

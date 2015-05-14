@@ -5,8 +5,8 @@ from django.test import TestCase
 from django.core.cache import cache, get_cache
 from django.utils import unittest
 
-from rest_framework import views
-from rest_framework.response import Response
+from rest_framework_3 import views
+from rest_framework_3.response import Response
 
 from rest_framework_extensions_3.test import APIRequestFactory
 from rest_framework_extensions_3.cache.decorators import cache_response

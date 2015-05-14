@@ -5,7 +5,7 @@ from functools import wraps
 from django import VERSION as django_version
 from django.utils.decorators import available_attrs
 
-import rest_framework
+import rest_framework_3
 
 from rest_framework_extensions_3.key_constructor.constructors import (
     DefaultKeyConstructor,
@@ -41,7 +41,7 @@ def get_django_features():
 
 
 def get_rest_framework_version():
-    return tuple(map(int, rest_framework.VERSION.split('.')))
+    return tuple(map(int, rest_framework_3.VERSION.split('.')))
 
 
 def flatten(list_of_lists):

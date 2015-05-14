@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 from django.contrib.contenttypes.models import ContentType
 
-from rest_framework.response import Response
-from rest_framework.viewsets import ModelViewSet
+from rest_framework_3.response import Response
+from rest_framework_3.viewsets import ModelViewSet
 
 from rest_framework_extensions_3.mixins import NestedViewSetMixin
 from rest_framework_extensions_3.decorators import action, link

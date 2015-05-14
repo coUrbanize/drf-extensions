@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from rest_framework import viewsets
+from rest_framework_3 import viewsets
 from rest_framework_extensions_3.mixins import DetailSerializerMixin
 
 from .models import Comment

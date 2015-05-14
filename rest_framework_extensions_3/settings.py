@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 from django.conf import settings
 
-from rest_framework.settings import APISettings
+from rest_framework_3.settings import APISettings
 
 
-USER_SETTINGS = getattr(settings, 'REST_FRAMEWORK_EXTENSIONS', None)
+USER_SETTINGS = getattr(settings, 'REST_FRAMEWORK_EXTENSIONS_3', None)
 
 DEFAULTS = {
     # caching

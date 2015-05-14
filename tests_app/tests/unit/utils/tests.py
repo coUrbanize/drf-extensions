@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from mock import patch, Mock
 
-from rest_framework import VERSION
+from rest_framework_3 import VERSION
 
 from django.test import TestCase
 

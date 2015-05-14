@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from rest_framework.viewsets import ModelViewSet
+from rest_framework_3.viewsets import ModelViewSet
 
 from .models import (
     UnitNestedRouterMixinUserModel as UserModel,

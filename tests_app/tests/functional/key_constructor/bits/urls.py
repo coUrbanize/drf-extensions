@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from rest_framework import routers
+from rest_framework_3 import routers
 
 from .views import (
     UserModelViewSet,

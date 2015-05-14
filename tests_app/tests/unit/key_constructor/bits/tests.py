@@ -4,8 +4,8 @@ from mock import Mock
 from django.test import TestCase
 from django.utils.translation import override
 
-from rest_framework import views
-from rest_framework.response import Response
+from rest_framework_3 import views
+from rest_framework_3.response import Response
 from rest_framework_extensions_3.test import APIRequestFactory
 from rest_framework_extensions_3.utils import get_django_features
 

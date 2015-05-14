@@ -2,7 +2,7 @@
 import base64
 from mock import patch
 
-from rest_framework import HTTP_HEADER_ENCODING
+from rest_framework_3 import HTTP_HEADER_ENCODING
 
 from rest_framework_extensions_3.key_constructor import bits
 from rest_framework_extensions_3.key_constructor.constructors import KeyConstructor

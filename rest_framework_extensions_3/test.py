@@ -9,7 +9,7 @@ from django.test.client import Client as DjangoClient
 from django.test.client import ClientHandler
 from django.test import testcases
 from django.utils.http import urlencode
-from rest_framework.settings import api_settings
+from rest_framework_3.settings import api_settings
 from rest_framework_extensions_3.compat import RequestFactory as DjangoRequestFactory  # changed here
 from rest_framework_extensions_3.compat import force_bytes_or_smart_bytes, six  # changed here
 

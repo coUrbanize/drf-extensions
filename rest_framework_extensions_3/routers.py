@@ -2,15 +2,15 @@
 from django.core.exceptions import ImproperlyConfigured
 from django.core.urlresolvers import NoReverseMatch
 
-from rest_framework.routers import (
+from rest_framework_3.routers import (
     DefaultRouter,
     SimpleRouter,
     Route,
     replace_methodname,
 )
-from rest_framework import views
-from rest_framework.reverse import reverse
-from rest_framework.response import Response
+from rest_framework_3 import views
+from rest_framework_3.reverse import reverse
+from rest_framework_3.response import Response
 from rest_framework_extensions_3.utils import flatten, compose_parent_pk_kwarg_name
 from rest_framework_extensions_3.compat_drf import add_trailing_slash_if_needed
 
